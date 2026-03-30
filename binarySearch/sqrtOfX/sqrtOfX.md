@@ -1,5 +1,7 @@
 # 69. Sqrt(x)
 
+**Difficulty:** Easy 
+
 ## Description
 
 Given a non-negative integer `x`, return _the square root of `x` rounded down to the nearest integer_. The returned integer should be **non-negative** as well.

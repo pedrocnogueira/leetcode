@@ -1,5 +1,7 @@
 # 222. Count Complete Tree Nodes
 
+**Difficulty:** Easy 
+
 Given the `root` of a **complete** binary tree, return the number of nodes in the tree.
 
 According to *Wikipedia*,
@@ -13,12 +15,13 @@ Design an algorithm that runs in less than `O(n)` time complexity.
 
 ### Example 1:
 
-          1
-        /   \
-       2     3
-      / \   /
-     4  5  6
-
+```
+      1
+    /   \
+   2     3
+  / \   /
+ 4  5  6
+```
 
 **Input:** `root = [1,2,3,4,5,6]`  
 **Output:** `6`
@@ -41,8 +44,8 @@ Design an algorithm that runs in less than `O(n)` time complexity.
 
 ### Constraints:
 
-- The number of nodes in the tree is in the range <code>[0, 5·10<sup>4</sup>]</code>.  
-- <code>0 &lt;= Node.val &lt;= 5·10<sup>4</sup></code>.  
+- The number of nodes in the tree is in the range `[0, 5·104]`.  
+- `0 <= Node.val <= 5·104`.  
 - The tree is guaranteed to be **complete**.
 
 # My solution
