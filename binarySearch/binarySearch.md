@@ -83,10 +83,10 @@ ASCII sketch:
 
 ```text
 Indexes:  0   1   2   3   4   5   6   7
-          ^                       ^
-         low                     high
-                  ^ 
-                  mid
+          ^                           ^
+         low                         high
+                      ^ 
+                     mid
 ```
 
 ---
